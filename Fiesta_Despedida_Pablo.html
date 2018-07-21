@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_f60ea9f4dbd74bf988a7b72996f0d220 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_f60ea9f4dbd74bf988a7b72996f0d220" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_f60ea9f4dbd74bf988a7b72996f0d220 = L.map(
+                                  'map_f60ea9f4dbd74bf988a7b72996f0d220',
+                                  {center: [19.351247,-99.174374],
+                                  zoom: 16.8,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_852a42b36f84456eb99a9d71762a9ef2 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_f60ea9f4dbd74bf988a7b72996f0d220);
+        
+    
+
+            var marker_7805995f6b624a04a30eadb28dab8c9d = L.marker(
+                [19.350169,-99.171426],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f60ea9f4dbd74bf988a7b72996f0d220);
+            
+    
+
+                var icon_fb4000cb005c4fdcb3d6d1ce2fc1b8ae = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: '#E37222',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7805995f6b624a04a30eadb28dab8c9d.setIcon(icon_fb4000cb005c4fdcb3d6d1ce2fc1b8ae);
+            
+    
+            var popup_34ba164e890c4bea920595e022dfc50a = L.popup({maxWidth: '300'});
+
+            
+                var html_4a0cc3d821cf4e418ce6c104c3de5c02 = $('<div id="html_4a0cc3d821cf4e418ce6c104c3de5c02" style="width: 100.0%; height: 100.0%;">Pablo Fest</div>')[0];
+                popup_34ba164e890c4bea920595e022dfc50a.setContent(html_4a0cc3d821cf4e418ce6c104c3de5c02);
+            
+
+            marker_7805995f6b624a04a30eadb28dab8c9d.bindPopup(popup_34ba164e890c4bea920595e022dfc50a);
+
+            
+        
+    
+
+            var marker_aa87e4c1e0b64334ae5c16d9c598ea3a = L.marker(
+                [19.351442,-99.178223],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_f60ea9f4dbd74bf988a7b72996f0d220);
+            
+    
+
+                var icon_765c877b387b4ed0b22b7a249e6eed11 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: ' #fa33ff ',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_aa87e4c1e0b64334ae5c16d9c598ea3a.setIcon(icon_765c877b387b4ed0b22b7a249e6eed11);
+            
+    
+            var popup_b088cdb7c9c040cd8fc0c583ef5b669e = L.popup({maxWidth: '300'});
+
+            
+                var html_27ff9fedfc674ecdb080309c374fa8f9 = $('<div id="html_27ff9fedfc674ecdb080309c374fa8f9" style="width: 100.0%; height: 100.0%;">OXXO</div>')[0];
+                popup_b088cdb7c9c040cd8fc0c583ef5b669e.setContent(html_27ff9fedfc674ecdb080309c374fa8f9);
+            
+
+            marker_aa87e4c1e0b64334ae5c16d9c598ea3a.bindPopup(popup_b088cdb7c9c040cd8fc0c583ef5b669e);
+
+            
+        
+    
+            var tile_layer_a1d74462e4f5448e897f38d2533e3a2f = L.tileLayer(
+                'https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_f60ea9f4dbd74bf988a7b72996f0d220);
+        
+    
+                var poly_line_3b4f9b0ad0d5462ea6956f7dfa7065cc = L.polyline(
+                    [[19.350114, -99.171429], [19.350369, -99.17205], [19.350697, -99.17282], [19.351059, -99.173884], [19.351045, -99.174324], [19.351263, -99.175364], [19.351879, -99.177537], [19.351425, -99.17826]],
+                    {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "green",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "noClip": false,
+  "opacity": 1.0,
+  "smoothFactor": 1.0,
+  "stroke": true,
+  "weight": 7.5
+}).addTo(map_f60ea9f4dbd74bf988a7b72996f0d220);
+            
+</script>
